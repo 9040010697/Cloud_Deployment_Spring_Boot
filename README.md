@@ -6,7 +6,7 @@ Direct Link: https://packages.cloudfoundry.org/stable?release=windows64&version=
 
 In your application add a file manifest.yml with below configuration
 
----
+
 applications:
 - name: ProductService
   instances: 1
