@@ -5,8 +5,8 @@ Link: https://github.com/cloudfoundry/cli#installers-and-compressed-binaries
 Direct Link: https://packages.cloudfoundry.org/stable?release=windows64&version=v7&source=github
 
 In your application add a file manifest.yml with below configuration
-
-
+=====================================================================
+---
 applications:
 - name: ProductService
   instances: 1
@@ -14,7 +14,7 @@ applications:
   path: target/ProductService-0.0.1-SNAPSHOT.jar
   domain: cfapps.io
 
-  
+===================================================  
 
 Use command > cf login  and login to application
 
