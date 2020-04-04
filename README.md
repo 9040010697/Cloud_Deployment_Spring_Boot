@@ -2,6 +2,9 @@
 
 Cloud URL: https://productservice.cfapps.io/swagger-ui.html
 
+Create a account in https://login.run.pivotal.io/login
+
+
 How to deploy application on Pivotal Cloud Foundry
 Download Cloud Foundry CLI using below URL:
 Link: https://github.com/cloudfoundry/cli#installers-and-compressed-binaries
