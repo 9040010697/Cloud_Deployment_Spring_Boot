@@ -4,15 +4,13 @@ Download Cloud Foundry CLI using below URL:
 Link: https://github.com/cloudfoundry/cli#installers-and-compressed-binaries
 Direct Link: https://packages.cloudfoundry.org/stable?release=windows64&version=v7&source=github
 
-# In your application add a file manifest.yml with below configuration
+In your application add a file manifest.yml with below configuration
 ==============================================================================
 ---
 applications:
 - name: ProductService
-#  random-route: true
   instances: 1
   memory: 1G
-#  buildpack: java_buildpack
   path: target/ProductService-0.0.1-SNAPSHOT.jar
   domain: cfapps.io
 ===============================================================================  
